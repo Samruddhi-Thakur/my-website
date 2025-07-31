@@ -69,3 +69,9 @@ footer {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
 }
+.hero-text {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
