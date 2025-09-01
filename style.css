@@ -130,3 +130,6 @@ footer {
   transform: rotateY(180deg);
   background: #f8f9fa;
 }
+h1 {
+    color: red !important;
+}
