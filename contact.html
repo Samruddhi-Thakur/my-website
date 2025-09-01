@@ -33,9 +33,10 @@
         main {
             display: flex;
             justify-content: center;
-            align-items: center;
-            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
             padding: 20px;
+            flex-wrap: wrap; /* Makes it stack on small screens */
         }
 
         .contact-card {
@@ -43,8 +44,7 @@
             padding: 25px;
             border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            width: 400px;
-            margin-bottom: 30px;
+            width: 350px;
         }
 
         h2 {
@@ -118,15 +118,16 @@
     </nav>
 
     <main>
-        <!-- Contact Info Card -->
+        <!-- Contact Info Card (Left) -->
         <div class="contact-card contact-info">
             <h2>Get in Touch</h2>
             <p><strong>Email:</strong> <a href="mailto:samruddhi.thakur@gmail.com">samruddhi.thakur@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:9270447001">+91 9270447001</a></p>
             <p><strong>LinkedIn:</strong></p>
             <a class="linkedin-btn" href="https://www.linkedin.com/in/samruddhi-thakur-381212339" target="_blank">Visit My LinkedIn</a>
         </div>
 
-        <!-- Contact Form Card -->
+        <!-- Contact Form Card (Right) -->
         <div class="contact-card">
             <h2>Send Me a Message</h2>
             <form>
